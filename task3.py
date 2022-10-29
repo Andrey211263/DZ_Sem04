@@ -30,7 +30,8 @@ while j < length:
 print('Сприсок не повторяющихся элементов',res) 
 
 ## Решение ребят
-# lst = list(map(int, input('введите послед чисел: ').split()))
-# res = [i for i in lst if lst.count(i) == 1]
-### res = [i for i in set(lst) if lst.count(i) == 1]
-# print(res)
+lst = list(map(int, input('введите послед чисел: ').split()))
+res = [i for i in lst if lst.count(i) == 1]
+## res = [i for i in set(lst) if lst.count(i) == 1]
+print(res)
+
